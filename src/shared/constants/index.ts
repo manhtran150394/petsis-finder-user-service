@@ -1,3 +1,5 @@
+export const DEFAULT_PORT = 3000;
+
 export enum EUserType {
   ADMIN = 'AD',
   PET_SISTER = 'PS',
