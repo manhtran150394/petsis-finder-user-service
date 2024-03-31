@@ -11,7 +11,7 @@ export class UserService {
 
   async createUser(_userType: string) {
     const newUser = new this.userModel({
-      _userType:
+      userType:
         _userType === EUserType.ADMIN
           ? EUserType.ADMIN
           : _userType === EUserType.PET_OWNER
